@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 /* CABEÇALHO */
@@ -12,6 +13,7 @@ body {
     text-align: center;
     padding: 20px;
     border: 2px solid #ff69b4;
+    margin: 10px;
 }
 
 #nome-personagem {
@@ -28,18 +30,28 @@ body {
 #conteudo-principal {
     margin: 20px;
     padding: 20px;
+    border: 2px solid #ff69b4;
 }
 
 /* APRESENTAÇÃO */
 #secao-apresentacao {
     display: flex;
     gap: 20px;
+    margin: 10px;
+}
+
+#bloco-imagem {
+    padding: 10px;
 }
 
 #imagem-personagem {
-    width: 200px;
+    width: 220px;
     border-radius: 15px;
     border: 3px solid #ff69b4;
+}
+
+.legenda {
+    font-size: 14px;
 }
 
 #bloco-descricao {
@@ -57,9 +69,14 @@ body {
 .texto-descricao {
     font-size: 16px;
     margin: 10px;
+    padding: 10px;
 }
 
 /* ATRIBUTOS */
+#secao-atributos {
+    margin: 10px;
+}
+
 #grade-atributos {
     display: flex;
     gap: 10px;
@@ -70,9 +87,22 @@ body {
     padding: 10px;
     border-radius: 10px;
     background-color: #ffd6ec;
+    margin: 5px;
+}
+
+.nome-atributo {
+    font-weight: bold;
+}
+
+.valor-atributo {
+    font-size: 14px;
 }
 
 /* HABILIDADES */
+#secao-habilidades {
+    margin: 10px;
+}
+
 .card-habilidade {
     border: 2px solid #ff69b4;
     margin: 10px;
@@ -80,15 +110,35 @@ body {
     border-radius: 10px;
 }
 
+.imagem-habilidade {
+    width: 100px;
+}
+
+.nome-habilidade {
+    font-weight: bold;
+}
+
 /* CURIOSIDADES */
+#secao-curiosidades {
+    margin: 10px;
+}
+
 .item-curiosidade {
     margin: 5px;
 }
 
 /* FRASE */
+#secao-frases {
+    text-align: center;
+    margin: 10px;
+}
+
 #frase-personagem {
     font-style: italic;
-    text-align: center;
+}
+
+#autor-frase {
+    font-weight: bold;
 }
 
 /* RODAPÉ */
@@ -96,8 +146,13 @@ body {
     text-align: center;
     padding: 10px;
     background-color: #ffb6d9;
+    border: 2px solid #ff69b4;
 }
 
 #nome-aluno {
     font-weight: bold;
+}
+
+#ano {
+    font-size: 14px;
 }
