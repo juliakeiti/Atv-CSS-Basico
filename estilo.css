@@ -1,234 +1,103 @@
-/* ============================================================
-   ATIVIDADE: Estilizando com CSS — Ficha Técnica do Personagem
-   Aluno(a): 
-   Turma: 
-   Data: 
-   ============================================================ */
-
-
-/* ============================================================
-   DICA: Como selecionar elementos no CSS
-
-   Por TAG:       h1 { }          (aplica em todos os h1)
-   Por ID:        #nome-id { }    (aplica em UM elemento específico)
-   Por CLASSE:    .nome-classe { }(aplica em vários elementos de uma vez)
-   ============================================================ */
-
-
-/* ----------------------------------------------------------
-   1. ESTILOS GERAIS DA PÁGINA
-   Aqui você configura o visual padrão do site inteiro.
-   Sugestão: defina a cor de fundo, a fonte padrão e a cor do texto.
-   ---------------------------------------------------------- */
-
 body {
-
+    background-color: #ffe4f0;
+    color: #4a004a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-
-/* ----------------------------------------------------------
-   2. CABEÇALHO  →  #cabecalho
-   A área do topo com o nome e título do personagem.
-   ---------------------------------------------------------- */
-
+/* CABEÇALHO */
 #cabecalho {
-
+    background-color: #ffb6d9;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ff69b4;
 }
 
 #nome-personagem {
-
+    font-size: 36px;
+    color: #ff1493;
+    font-weight: bold;
 }
 
 #titulo-personagem {
-
+    font-size: 18px;
 }
 
-
-/* ----------------------------------------------------------
-   3. CONTEÚDO PRINCIPAL  →  #conteudo-principal
-   O bloco que envolve tudo entre o cabeçalho e o rodapé.
-   ---------------------------------------------------------- */
-
+/* CONTEÚDO */
 #conteudo-principal {
-
+    margin: 20px;
+    padding: 20px;
 }
 
-
-/* ----------------------------------------------------------
-   4. SEÇÃO DE APRESENTAÇÃO  →  #secao-apresentacao
-   Imagem do personagem + texto de descrição lado a lado.
-   ---------------------------------------------------------- */
-
+/* APRESENTAÇÃO */
 #secao-apresentacao {
-
-}
-
-#bloco-imagem {
-
+    display: flex;
+    gap: 20px;
 }
 
 #imagem-personagem {
-
-}
-
-.legenda {
-
+    width: 200px;
+    border-radius: 15px;
+    border: 3px solid #ff69b4;
 }
 
 #bloco-descricao {
-
+    padding: 10px;
 }
 
-
-/* ----------------------------------------------------------
-   5. TÍTULOS DE SEÇÃO  →  .titulo-secao
-   Usados em todas as seções da página.
-   ---------------------------------------------------------- */
-
+/* TÍTULOS */
 .titulo-secao {
-
+    font-size: 22px;
+    color: #ff1493;
+    margin: 10px 0;
 }
 
-
-/* ----------------------------------------------------------
-   6. TEXTOS DE DESCRIÇÃO  →  .texto-descricao
-   Parágrafos dentro do bloco de descrição do personagem.
-   ---------------------------------------------------------- */
-
+/* TEXTO */
 .texto-descricao {
-
+    font-size: 16px;
+    margin: 10px;
 }
 
-
-/* ----------------------------------------------------------
-   7. SEÇÃO DE ATRIBUTOS  →  #secao-atributos
-   A grade com os cards de atributo (ataque, defesa, etc.).
-   ---------------------------------------------------------- */
-
-#secao-atributos {
-
-}
-
+/* ATRIBUTOS */
 #grade-atributos {
-
+    display: flex;
+    gap: 10px;
 }
 
-/* Cada card de atributo individualmente */
 .card-atributo {
-
+    border: 2px solid #ff69b4;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffd6ec;
 }
 
-.icone-atributo {
-
-}
-
-.nome-atributo {
-
-}
-
-.valor-atributo {
-
-}
-
-
-/* ----------------------------------------------------------
-   8. SEÇÃO DE HABILIDADES  →  #secao-habilidades
-   Lista de habilidades com imagem e descrição.
-   ---------------------------------------------------------- */
-
-#secao-habilidades {
-
-}
-
-#lista-habilidades {
-
-}
-
-/* Cada card de habilidade */
+/* HABILIDADES */
 .card-habilidade {
-
+    border: 2px solid #ff69b4;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.imagem-habilidade {
-
-}
-
-.info-habilidade {
-
-}
-
-.nome-habilidade {
-
-}
-
-.tipo-habilidade {
-
-}
-
-.descricao-habilidade {
-
-}
-
-
-/* ----------------------------------------------------------
-   9. SEÇÃO DE CURIOSIDADES  →  #secao-curiosidades
-   Lista com fatos sobre o personagem.
-   ---------------------------------------------------------- */
-
-#secao-curiosidades {
-
-}
-
-#lista-curiosidades {
-
-}
-
+/* CURIOSIDADES */
 .item-curiosidade {
-
+    margin: 5px;
 }
 
-
-/* ----------------------------------------------------------
-   10. SEÇÃO DE FRASES  →  #secao-frases
-   A frase marcante do personagem em destaque.
-   ---------------------------------------------------------- */
-
-#secao-frases {
-
-}
-
+/* FRASE */
 #frase-personagem {
-
+    font-style: italic;
+    text-align: center;
 }
 
-#autor-frase {
-
-}
-
-
-/* ----------------------------------------------------------
-   11. RODAPÉ  →  #rodape
-   Área inferior com os créditos da ficha.
-   ---------------------------------------------------------- */
-
+/* RODAPÉ */
 #rodape {
-
-}
-
-#creditos {
-
+    text-align: center;
+    padding: 10px;
+    background-color: #ffb6d9;
 }
 
 #nome-aluno {
-
+    font-weight: bold;
 }
-
-#ano {
-
-}
-
-
-/* ----------------------------------------------------------
-   ÁREA LIVRE
-   Quer adicionar mais estilos? Use este espaço!
-   ---------------------------------------------------------- */
